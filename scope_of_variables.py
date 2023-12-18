@@ -1,0 +1,28 @@
+"""
+Scope of Variables
+
+Two cases:
+
+1 - Global variables
+    - The recognition in all parts of system
+
+2 - Local variables
+    - Only in the block where the variable has been declared.
+
+
+In Python do not necessary to declare the type of variable, only the variable.
+
+"""
+
+number = 40  # exemple of global variable.
+print(type(number))
+
+name = 'John Marston'
+print(type(name))
+
+number2 = 42
+
+if number2 > 10:
+    new = number2 + 10  # Variable new is an local (if) variable.
+    print(number2)
+print(new)
