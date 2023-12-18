@@ -71,3 +71,14 @@ print(course)
 print(list_new)
 list_new.clear()
 print(list_new)
+
+cart = []
+product = ''
+
+while product != 'exit':
+    print('Add one product or insert exit to exit')
+    product = input()
+    if product != 'exit':
+        cart.append(product)
+for product in cart:
+    print(product)
