@@ -8,6 +8,8 @@ In C or Java: arrays
 In Python: Dynamics
     - Do not have fixe size. create the list and add elements.
     - Any type of data
+
+"Lists are mutable"
 """
 
 list_numbers = [12, 23, 344, 43, 56, 5, 7, 5]
@@ -82,3 +84,55 @@ while product != 'exit':
         cart.append(product)
 for product in cart:
     print(product)
+
+"""
+List to tuple
+"""
+
+list_tuple = [1, 2, 3, 4, 5, 6, 7]
+print(list_tuple)
+print(type(list_tuple))
+
+tuple_var = tuple(list_tuple)
+print(tuple_var)
+print(type(tuple_var))  # convert to tuple
+
+"""
+unbox of lists
+"""
+
+list_unbox = [1, 2, 3]
+num1, num2, num3 = list_unbox
+
+print(num1)
+print(num2)
+print(num3)
+# If the number of elements presents in the lists are more than the number of the elements prints
+# cause ValueError.
+
+""""
+Copy from lists - Shallow copy and Deep copy
+"""
+list_DeepCopy = [1, 2, 3, 4, 5]
+print(list_DeepCopy)
+
+list_DeepCopy_new = list_DeepCopy.copy()
+
+list_DeepCopy_new.append(4)
+
+print(list_DeepCopy)
+print(list_DeepCopy_new)
+# When use the list_DeepCopy.copy() is create an new list but both lists are independent.
+# DEEP COPY
+
+list_ShallowCopy = [1, 2, 3, 4, 5]
+print(list_ShallowCopy)
+
+list_ShallowCopy_new = list_ShallowCopy
+
+list_ShallowCopy_new.append(6)
+
+print(list_ShallowCopy)
+print(list_ShallowCopy_new)
+# Both lists receive the new element (6) "Not independent"
+# SHALLOW COPY
