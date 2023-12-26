@@ -3,7 +3,7 @@ Boolean type
 
 True or False
 
-the first word in upperCase
+The first word in upperCase
 
 """
 
