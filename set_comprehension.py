@@ -18,7 +18,7 @@ print(nums2)
 
 # Challenge: Modify the last structure to generate a dict --------------------------------
 
-nums3 = {x: x ** 2 for x in range(10)}  # The x like kwy
+nums3 = {x: x ** 2 for x in range(10)}  # To complete the challenge, use the x like key -> (x:)...
 print(nums3)
 
 # To finish --------------------------------
