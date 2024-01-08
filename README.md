@@ -1,6 +1,6 @@
 Research Project for UFSC Master's Degree: Comprehensive Study of Python's Applications.
 
-This title indicates that the study is part of a Master's Degree project at UFSC and focuses on exploring various aspects of Python and its applications.
+Study is part of a Master's Degree project at UFSC and focuses on exploring various aspects of Python and its applications.
 
 Why study Python?
 
