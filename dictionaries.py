@@ -1,11 +1,11 @@
 """
 Dictionaries or Maps
 
-PS1: Dictionaries are collections type key/value.
+Type1: Dictionaries are collections type key/value.
 
-PS2: Dictionaries are represented for keys {}
+Type2: Dictionaries are represented for keys {}
 
-PS3: key/value can be used with many types of data.
+Type3: key/value can be used with many types of data.
 """
 
 my_dict = {'a': 1, 'b': 2, }

@@ -2,7 +2,7 @@
 While - Boolean Expression
     //execution of while loop
 
-The while has been execute then the boolean expression is true
+The while has been executed then the boolean expression is true
 
 num1 = 1
 

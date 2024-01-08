@@ -1,3 +1,13 @@
+"""
+Study Conditionals
+
+if conditional
+else conditional
+elif conditional
+
+"""
+
+
 age = 45
 
 if age < 18:

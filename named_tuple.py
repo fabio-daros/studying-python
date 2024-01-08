@@ -1,5 +1,7 @@
 """"
-Collection Module: Named Tuple
+Collection Module: Named Tuple in Python.
+
+example:
 
 Tuple = (1, 2, 3)
 

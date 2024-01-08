@@ -6,10 +6,10 @@ In Python, lists are like vector or matrix operations and are dynamics.
 In C or Java: arrays
     - fixe size
 In Python: Dynamics
-    - Do not have fixe size. create the list and add elements.
+    - Do not have a fixe size -> Create the list and add elements.
     - Any type of data
 
-"Lists are mutable"
+"Lists are mutable."
 """
 
 list_numbers = [12, 23, 344, 43, 56, 5, 7, 5]
