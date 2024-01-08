@@ -4,10 +4,8 @@ For -> An structure
 iterables ->
 - String
     name = 'Fabio Daros'
-- List
-    list = [1,2,3,4]
-- Range
-    numbers = range(1, 10)
+- List -> list = [1,2,3,4]
+- Range -> numbers = range(1, 10)
 """
 name = 'Fabio Daros'
 list = [1, 2, 3, 4]

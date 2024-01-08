@@ -1,9 +1,9 @@
 """
 Documentation for docstrings
 
-PS1: We can access the documentation as the python function, utilizing the special method __doc__
+Type1: We can access the documentation as the python function, utilizing the special method __doc__
 
-PS2: We can access the documentation with the function help()
+Type2: We can access the documentation with the function help()
 """
 
 

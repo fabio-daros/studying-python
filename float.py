@@ -3,7 +3,8 @@ Type Float
 
 Type real
 
-Use . to separate decimal
+Use '.'
+To separate decimal
 """
 
 print(float(input("Enter a number: ")))

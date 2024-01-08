@@ -54,7 +54,7 @@ print(three(3, 6, 9))
 # Example 2 ---------------------
 
 authors = ['Isaac Asimov', 'Ray Bradbury', 'Athur Conan Doyle', 'J.R.R Tokien', 'Frank Herbert', 'H. G. Wells',
-           'Leigh Brackett', 'Orson Scot Card', 'Arthur C. Clarke']
+           'Leigh Bracket', 'Orson Scot Card', 'Arthur C. Clarke']
 
 print(authors)
 
@@ -67,7 +67,7 @@ print(authors)
 
 # Example 3 ---------------------
 # Quadratic function ---------------------
-# Formulae: f(x) = a * x ** 2 + b * x + c ---------------------
+# Formula: f(x) = a * x ** 2 + b * x + c ---------------------
 
 # Function
 
