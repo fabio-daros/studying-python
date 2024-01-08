@@ -2,7 +2,7 @@ Research Project for UFSC Master's Degree: Comprehensive Study of Python's Appli
 
 This title indicates that the study is part of a Master's Degree project at UFSC and focuses on exploring various aspects of Python and its applications.
 
-Why studie Python?
+Why study Python?
 
 1. Python's journey began in the late 1980s with Guido van Rossum, who envisioned a language that prioritized readability and ease of use. Tracing its historical evolution, this section explores the key milestones, versions, and the philosophy that has shaped Python into the dynamic language it is today.
 2. Python, a high-level, versatile programming language, has become a cornerstone in the world of software development, data science, artificial intelligence, and beyond. This comprehensive study aims to delve into all facets of Python, shedding light on its origins, core features, libraries, applications, and the vibrant community that surrounds it.
