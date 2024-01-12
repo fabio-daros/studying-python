@@ -1,17 +1,17 @@
 """
 Type string
 
-- exemple: '234', 'a' , 'True', '42.3'
--  Aspas simples
--  Aspas duplas
--  Aspas simples triplas
+- example: '234', 'a' , 'True', '42.3'
+-  quotation marks
+-  double quotes
+-  triple single quotes
 """
 
 name = "Fabio Daros"
 print(name)
 print(type(name))
 
-name2 = 'Joao Marston'
+name2 = 'John Marston'
 print(name2)
 print(type(name2))
 

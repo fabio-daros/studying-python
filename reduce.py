@@ -1,7 +1,7 @@
 """
 Reduce
 
-PS: Python3 and other new versions, reduce() not be more integrated version (built-in) now we need import.
+PS: Python3 and other new versions, reduce() not be more integrated version (built-in) now need import.
 
 To understand reduce()
 
