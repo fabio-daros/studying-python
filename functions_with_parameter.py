@@ -12,7 +12,7 @@ Functions:
 3 - Have input but do not have output
 4 - Do not have input but have output
 5 - Have input and output
-"""
+
 import time
 
 
@@ -39,7 +39,9 @@ def sing_happy_birthday(birthday_person):
     print(f"To you!, to you! {birthday_person}")
 
 
-sing_happy_birthday("Fabio Daros")
+sing_happy_birthday("NAME")
+
+print('\n')
 
 
 # Example 2
@@ -57,10 +59,10 @@ def sing_happy_birthday(name):
 
 
 # Example usage:
-sing_happy_birthday("Fabio")
+sing_happy_birthday("NAME")
 
 
-# funtion with many parameters
+# function with many parameters
 
 def concat(a, b):
     return a + b
@@ -90,22 +92,30 @@ def complete_name(first_name, last_name):
 # Arguments are data pass during the execution of a function.
 # The order of parameters is important.
 
-print(complete_name("Fabio", "Daros"))
+print(complete_name("FIRST_NAME", "LAST_NAME"))
 
 # Named arguments or (Keywords arguments)
 
-print(complete_name(first_name="Fabio", last_name="Daros"))
+print(complete_name(first_name="FIRST_NAME", last_name="LAST_NAME"))
 
 
 # Common error in returns
+"""
+
 
 def sum_odd(nums):
     total = 0
     for num in nums:
         if num % 2 != 0:
-            total += num
+            total = total + num
         return total  # this return is in a wrong place
 
 
-list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(sum_odd(list1))
+"""To use in the dunder.py module"""
+
+if __name__ == '__main__':
+    list_1 = [1, 2, 3, 4, 5, 6, 7]
+    print(sum_odd(list_1))
+
+    tuple = (1, 2, 3, 4, 5, 6, 7)
+    print(sum_odd(tuple))
