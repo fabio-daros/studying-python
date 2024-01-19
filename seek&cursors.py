@@ -45,7 +45,8 @@ lines = archive.readlines()
 print(len(lines))
 """
 # Example_5 --------------------------
-"""Type_1: When opine an archive with the function "open()" is create a connection between the archive and the computer 
+"""
+Type_1: When opine an archive with the function "open()" is create a connection between the archive and the computer 
 disk and the program is call streaming... its necessary close the teh connection with "close()"
 steps:
 1 - Open archive.

@@ -34,7 +34,7 @@ print(list(zip_1))
 # minor list to create the tuples.
 
 # Example 3 ----------------------------------
-# using diferent iterables.
+# using different iterables.
 
 tuple_1 = 1, 2, 3, 4, 5
 list_4 = [6, 7, 8, 9, 10]
