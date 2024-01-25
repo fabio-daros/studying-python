@@ -18,7 +18,7 @@ print(type(tuple_2))
 
 # Caution 2: Tuples with an unique element.
 
-tuple_3 = (1)  # This not a tuple.
+tuple_3 = 1  # This not a tuple.
 print(tuple_3)
 print(type(tuple_3))
 
