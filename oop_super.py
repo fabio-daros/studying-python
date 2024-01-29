@@ -15,7 +15,7 @@ class Animal:
         self.__specie = specie
 
     def vocalization(self, sound):
-        print(f'The vocalization of the {self.__name} is {sound}')
+        print(f'The vocalization of the {self.__name}, the {self.__specie} is {sound}')
 
 
 class Cat(Animal):
@@ -27,6 +27,6 @@ class Cat(Animal):
         self.__race = race
 
 
-felix = Cat('Felix', 'Animal', 'Persian')
+felix = Cat('Felix', 'feline', 'persian')
 
 felix.vocalization('Meow.')

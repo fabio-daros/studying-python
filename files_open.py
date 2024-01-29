@@ -21,9 +21,9 @@ except FileExistsError:
 
 """
 If the file exist -> Error
-/usr/local/bin/python3.12 /Users/darosfabio/PycharmProjects/guppe/open_files.py 
+/usr/local/bin/python3.12 /Users/darosfabio/PycharmProjects/guppe/files_open.py 
 Traceback (most recent call last):
-  File "/Users/darosfabio/PycharmProjects/guppe/open_files.py", line 11, in <module>
+  File "/Users/darosfabio/PycharmProjects/guppe/files_open.py", line 11, in <module>
     with open('new_text_3.txt', 'x') as archive:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileExistsError: [Errno 17] File exists: 'new_text_3.txt'

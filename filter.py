@@ -1,7 +1,7 @@
 """
 Filters
 
-filter() -> filter the datas from a collection.
+filter() -> filter the data from a collection.
 
 """
 import statistics

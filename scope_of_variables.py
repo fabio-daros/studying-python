@@ -14,7 +14,7 @@ In Python do not necessary to declare the type of variable, only the variable.
 
 """
 
-number = 40  # exemple of global variable.
+number = 40  # example of global variable.
 print(type(number))
 
 name = 'John Marston'
@@ -23,6 +23,6 @@ print(type(name))
 number2 = 42
 
 if number2 > 10:
-    new = number2 + 10  # Variable new is an local (if) variable.
+    new = number2 + 10  # Variable new is a local (if) variable.
     print(number2)
 print(new)
