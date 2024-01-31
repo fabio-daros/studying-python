@@ -31,7 +31,7 @@ print(calc(7))
 
 complete_name = lambda first_name, last_name: first_name.strip().title() + " " + last_name.strip().title()
 # .strip() -> remove the spaces...
-print(complete_name('Fabio', 'Daros'))
+print(complete_name('First Name', 'Last Name'))
 
 love = lambda: 'How do not love Python?'
 
@@ -53,7 +53,7 @@ print(three(3, 6, 9))
 
 # Example 2 ---------------------
 
-authors = ['Isaac Asimov', 'Ray Bradbury', 'Athur Conan Doyle', 'J.R.R Tokien', 'Frank Herbert', 'H. G. Wells',
+authors = ['Isaac Asimov', 'Ray Bradbury', 'Arthur Conan Doyle', 'J.R.R Tokien', 'Frank Herbert', 'H. G. Wells',
            'Leigh Bracket', 'Orson Scot Card', 'Arthur C. Clarke']
 
 print(authors)

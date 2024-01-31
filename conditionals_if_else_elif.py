@@ -7,12 +7,17 @@ elif conditional
 
 """
 
+try:
+    age = int(input('Enter your age: '))
 
-age = 45
+    if age < 0:
+        print("Please enter a valid age greater than or equal to 0.")
+    elif age < 16:
+        print("You are underage.")
+    elif age == 16:
+        print("You just turned 16 and are now of legal age.")
+    else:
+        print("You are of legal age.")
 
-if age < 18:
-    print("You are minor age person")
-elif age == 18:
-    print("You have 18 years old")
-else:
-    print("You are major age person")
+except ValueError:
+    print("Please enter a valid integer for your age.")
