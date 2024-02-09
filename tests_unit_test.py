@@ -1,6 +1,6 @@
 import unittest
 
-from activities import eat, sleep
+from activities import eat, sleep, is_funny
 
 
 class TestActivities(unittest.TestCase):
@@ -32,6 +32,12 @@ class TestActivities(unittest.TestCase):
             sleep(10),
             'sleep for 10 hours.'
         )
+
+    def test_is_funny(self):
+        # self.assertEqual(is_funny('Jim Carrey'), False)
+        self.assertFalse(is_funny('Jim Carrey'))
+        self.assertTrue(is_funny('Jim Carrey'), 'Jim Carrey should be funny.')
+        # if True, execute the function else, the msg:.
 
 
 if __name__ == '__main__':
